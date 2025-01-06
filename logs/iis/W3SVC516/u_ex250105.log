@@ -1,0 +1,23 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-01-05 05:24:10
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2025-01-05 05:24:10 27.50.88.26 GET /index.asp - 443 - 118.210.118.95 HTTP/2 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/131.0.0.0+Safari/537.36 https://regulationlore.com.au/dictionaryold.asp regulationlore.com.au 200 0 0 4090 758 453
+2025-01-05 05:25:51 27.50.88.26 GET /index.asp/info/refs service=git-upload-pack|-|0|404_Not_Found 443 - 20.75.217.40 HTTP/2 git/github-g24d246adf6b3 - regulationlore.com.au 404 0 0 12814 239 203
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-01-05 08:47:43
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2025-01-05 08:47:43 27.50.88.26 GET / - 443 - 205.210.31.16 HTTP/1.1 - - regulationlore.com.au 200 0 0 9023 47 666
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-01-05 12:12:06
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2025-01-05 12:12:05 27.50.88.26 GET / - 80 - 35.93.91.160 HTTP/1.1 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/83.0.4103.97+Safari/537.36 - regulationlore.com.au 200 0 0 9056 188 654
+2025-01-05 12:12:22 27.50.88.26 GET / - 443 - 35.87.116.84 HTTP/1.1 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/83.0.4103.97+Safari/537.36 - regulationlore.com.au 200 0 0 9093 188 223
+2025-01-05 12:12:54 27.50.88.26 GET / - 80 - 54.190.109.14 HTTP/1.1 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/83.0.4103.97+Safari/537.36 - regulationlore.com.au 200 0 0 9056 188 221
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-01-05 19:20:18
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2025-01-05 19:20:18 27.50.88.26 GET / - 443 - 104.152.52.57 HTTP/1.1 curl/7.61.1 - regulationlore.com.au 200 0 0 9037 85 749

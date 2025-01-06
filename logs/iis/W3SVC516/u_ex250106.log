@@ -1,0 +1,5 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-01-06 01:34:42
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2025-01-06 01:34:41 27.50.88.26 GET / - 443 - 192.104.34.34 HTTP/1.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/129.0.0.0+Safari/537.36 - www.regulationlore.com.au 200 0 0 9037 345 699

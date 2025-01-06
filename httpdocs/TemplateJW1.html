@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regulation Lore</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .header {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        .header img {
+            float: left;
+            margin: 10px;
+        }
+
+        .header h1 {
+            font-size: 50pt;
+            margin: 0;
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 115px;
+        }
+
+        .header p {
+            font-size: xx-large;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        .navbar {
+            background-color: #000000;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: small;
+            margin: 20px 0;
+        }
+
+        .footer img {
+            margin: 10px;
+        }
+
+        .dynamic-text {
+            color: #333333;
+            font-size: 10pt;
+        }
+    .auto-style1 {
+		border-width: 0px;
+	}
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <table class="header">
+        <tr>
+            <td>
+                <a href="index.asp">
+                    <img src="Images/FanMadeWhite.png" alt="FanMade Logo" height="145" width="101" class="auto-style1" /></a><a href="index2.html">
+                </a>
+                <h1>Regulation Lore *</h1>
+                <p>A fan-made site</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Navigation Bar -->
+    <table class="navbar">
+        <tr>
+            <td><a href="dictionary.asp">Dictionary</a></td>
+            <td><a href="blankguy.asp">I'm a ____ guy</a></td>
+            <td><a href="castideas.asp">Regulation Ideas</a></td>
+            <td><a href="todo.asp">To Do</a></td>
+            <td><a href="RegulationCollectables.asp">Regulation Collectables</a></td>
+        </tr>
+    </table>
+
+    <!-- Placeholder for Page Content -->
+    <div style="padding: 20px; text-align: center;">
+        <p>Content goes here.</p>
+    </div>
+
+    <!-- Footer Section -->
+    <table class="footer">
+        <tr>
+            <td colspan="5">
+                <p class="dynamic-text">
+                    <a href="About.asp">About</a> |
+                    <a href="contactus.asp">Comment Leavers</a> |
+                    <a href="https://regulationstore.com/" target="_blank" rel="noopener noreferrer">Official Regulation Store</a>
+                </p>
+				<p class="dynamic-text">
+                    This is a fan-made site brought to you by UniFan. (<span id="dynamic-text"></span>)
+                </p>
+                <img src="Images/UniFan.png" alt="UniFan Logo" height="67" width="94" /></td>
+        </tr>
+    </table>
+
+    <!-- Add JavaScript for Dynamic Text -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const textOptions = [
+                "Unifan, combining the power of one with the fabric of the fan. Unifan",
+                "Unifan, combining the fabric of the fan with the power of one. Unifan"
+            ];
+            const randomText = textOptions[Math.floor(Math.random() * textOptions.length)];
+            document.getElementById("dynamic-text").textContent = randomText;
+        });
+    </script>
+
+	<p>
+	<a href="https://www.youtube.com/watch?v=qy_ui7uU00s" rel="noopener noreferrer" target="_blank">
+	<img alt="" class="auto-style1" height="65" src="Images/Mousehole.png" style="float: right" width="99"></a><a href="Gurpcountdown.asp"><img alt="" class="auto-style1" height="68" src="Images/Gurp.png" style="float: right" width="48"></a><a href="Bleep.asp"><img alt="" class="auto-style1" height="57" src="Images/Bleep.png" style="float: right" width="86"></a></p>
+
+</body>
+
+</html>
